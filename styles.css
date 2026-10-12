@@ -1,0 +1,17 @@
+:root { color-scheme: light; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #243a35; background: #f6f8f5; }
+* { box-sizing: border-box; }
+body { margin: 0; line-height: 1.75; }
+a { color: #196b53; text-underline-offset: .2em; }
+.site-header { max-width: 1040px; margin: auto; padding: 28px 32px; display: flex; justify-content: space-between; gap: 20px; align-items: center; border-bottom: 1px solid #d8e2da; }
+.site-header > a { font-weight: 700; text-decoration: none; }
+nav { display: flex; gap: 22px; }
+nav a { font-size: .95rem; }
+main { max-width: 800px; margin: auto; padding: 60px 32px 40px; }
+.eyebrow { font-size: .8rem; letter-spacing: .1em; text-transform: uppercase; font-weight: 600; color: #536f62; }
+h1 { margin: 18px 0 24px; font-size: clamp(2.3rem, 6vw, 3.9rem); line-height: 1.12; letter-spacing: -.04em; color: #153e31; }
+.lead { font-size: 1.18rem; color: #53665e; }
+section { margin-top: 38px; }
+h2 { font-size: 1.2rem; margin-bottom: 8px; line-height: 1.4; }
+p { margin: 12px 0; }
+footer { max-width: 1040px; margin: auto; padding: 24px 32px 40px; border-top: 1px solid #d8e2da; color: #53665e; font-size: .85rem; }
+@media (max-width: 520px) { .site-header { align-items: flex-start; flex-direction: column; padding: 20px; } main { padding: 38px 20px; } footer { padding: 24px 20px; } }
